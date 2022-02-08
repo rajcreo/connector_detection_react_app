@@ -1,0 +1,7 @@
+# Compiled Binary
+/build
+
+# Depenedency directories
+/node_modules
+package-lock.json
+
