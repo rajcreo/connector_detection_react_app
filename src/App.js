@@ -17,7 +17,7 @@ function App() {
   // Main function
   const runModel = async () => {
     // load network
-    const net = await tf.loadGraphModel("https://cdtfbucket.s3.ap-south-1.amazonaws.com/model.json");
+    const net = await tf.loadGraphModel("https://cdtfbucket2.s3.ap-south-1.amazonaws.com/model.json");
 
     // Loop and detect connector
     setInterval(() => {
@@ -51,10 +51,10 @@ function App() {
       const casted = resized.cast('int32')
       const expanded = casted.expandDims(0)
       const obj = await net.executeAsync(expanded)
-      // console.log(await obj[2].array());
-      const boxes = await obj[2].array()
-      const classes = await obj[0].array()
-      const scores = await obj[3].array()
+      console.log(await obj[0].array());
+      const boxes = await obj[5].array()
+      const classes = await obj[7].array()
+      const scores = await obj[0].array()
     
       // Draw mesh
       const ctx = canvasRef.current.getContext("2d");
