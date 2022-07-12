@@ -1,7 +1,7 @@
 # Vehicle's Connector Detection React Application
 <p>This application detects and recognise the connector used in vehicle. So by this application even those person whose doesn't have automobile knowledge can also identify the connector.</p>
 
-## Steps
+## Working of the App
 <br />
 <b>Step 1.</b> Clone this repository: https://github.com/nicknochnack/TFODApp
 <br/><br/>
