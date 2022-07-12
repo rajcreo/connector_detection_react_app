@@ -5,9 +5,9 @@
 <br />
 Link for accessing the webapp: https://cdreactapp2.s3.ap-south-1.amazonaws.com/index.html
 <br/><br/>
-<b>Step 2.</b> Install Node https://nodejs.org/en/
+Source code of React App: https://github.com/rajcreo/connector_detection_react_app
 <br/><br/>
-<b>Step 3.</b> Install App Depdendencies 
+Source code of Detection Model: https://github.com/rajcreo/connector_detection_tf_model
 <pre>npm install</pre>
 <br/><br/>
 <b>Step 4.</b> Create a new free object storage repository on IBM Cloud <a href="https://cloud.ibm.com/objectstorage/create">Create Cloud Object Storage Bucket</a> 
