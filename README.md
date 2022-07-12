@@ -3,7 +3,7 @@
 
 ## Working of the App
 <br />
-<b>Step 1.</b> Clone this repository: https://github.com/nicknochnack/TFODApp
+Link for accessing the webapp: https://cdreactapp2.s3.ap-south-1.amazonaws.com/index.html
 <br/><br/>
 <b>Step 2.</b> Install Node https://nodejs.org/en/
 <br/><br/>
